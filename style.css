@@ -1,0 +1,180 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  color: #023246;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Chango', cursive;
+}
+
+h1 {
+  font-size: 9rem;
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+a, a:visited {
+  color: #287094;
+}
+
+a:hover, a:focus {
+  color: #023246;
+}
+
+.page-link {
+  font-size: 3rem;
+  float: right;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+header img {
+  width: 1%;
+}
+
+header h2 {
+  color: #023246;
+  font-size: 1rem;
+}
+
+article {
+  padding: 2rem 24rem;
+  font-size: 2rem;
+  min-height: 100vh;
+}
+
+.front-page {
+  background-color: #f6f6f6;
+  height: 100vh;
+  position: relative;
+}
+
+.front-page .page-link {
+  font-size: 3rem;
+  position: absolute;
+  bottom: 9rem;
+  float: right;
+  right: 24rem;
+}
+
+.front-page .front-page-title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.front-page .front-page-title img {
+  width: 10%;
+  margin-right: 2rem;
+  display: inline;
+}
+
+.front-page .front-page-title h1, .front-page .front-page-title h2 {
+  color: #023246;
+  display: inline;
+}
+
+.usage, .comparison {
+  background-image: url(./images/wp7752259.jpg);
+}
+
+.usage h2, .comparison h2 {
+  margin-bottom: 1rem;
+  color: #f6f6f6;
+}
+
+.usage h4, .comparison h4 {
+  margin-top: 1rem;
+  color: #d4d4ce;
+}
+
+.usage a, .usage a:visited, .comparison a, .comparison a:visited {
+  color: #f6f6f6;
+}
+
+.usage a:hover, .usage a:focus, .comparison a:hover, .comparison a:focus {
+  color: #d4d4ce;
+}
+
+.usage .image-container, .comparison .image-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.usage .image-container img, .comparison .image-container img {
+  width: 7%;
+  height: 5rem;
+  background-color: #f6f6f6;
+  border-radius: 5%;
+  padding: 1rem;
+}
+
+.usage .image-container img:hover, .comparison .image-container img:hover {
+  background-color: #d4d4ce70;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.usage .image-container h2, .comparison .image-container h2 {
+  display: inline;
+  margin: 0;
+}
+
+footer {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+  color: #023246;
+}
+/*# sourceMappingURL=style.css.map */

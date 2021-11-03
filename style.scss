@@ -1,0 +1,153 @@
+$blue-1: #287094;
+$blue-2: #023246;
+$gray-1: #d4d4ce;
+$gray-2: #f6f6f6;
+$gray-1-transp: #d4d4ce70;
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    color: $blue-2;
+}
+
+body {
+    margin: 0;
+}
+    h1, h2, h3, h4 {
+    font-family: 'Chango', cursive;
+    
+}
+h1 {
+    font-size: 9rem;   
+}
+h2 {
+    font-size: 6rem;
+}
+h3 {
+    font-size: 4rem;
+}
+h4 {
+    font-size: 3rem;
+}
+
+a, a:visited {
+    color: $blue-1;
+}
+a:hover, a:focus {
+    color: $blue-2;
+}
+
+.page-link {
+    font-size: 3rem;
+    float: right;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: $gray-2;
+    width: 100%;
+    img {
+        width: 1%;
+    }
+    h2 {
+        color: $blue-2;
+        font-size: 1rem;
+    }
+}
+article {
+    padding: 2rem 24rem;
+    font-size: 2rem;
+    min-height: 100vh;
+}
+
+.front-page {
+    background-color: $gray-2;
+    height: 100vh;
+    position: relative;
+    .page-link {
+        font-size: 3rem;
+        position: absolute;
+        bottom: 9rem;
+        float: right;
+        right: 24rem;
+    }
+    .front-page-title {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        img {
+            width: 10%;
+            margin-right: 2rem;
+            display: inline;
+        }
+        h1, h2 {
+            color: $blue-2;
+            display: inline;
+        }
+    }
+    
+}
+
+.usage, .comparison {
+    background-image: url(./images/wp7752259.jpg);
+    h2 {
+        margin-bottom: 1rem;
+        color: $gray-2;
+    }
+    h4 {
+        margin-top: 1rem;
+        color: $gray-1;
+    }
+    a, a:visited {
+        color: $gray-2;
+    }
+    a:hover, a:focus  {
+        color: $gray-1;
+    }
+    .image-container {
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 5rem;
+        img {
+            width: 7%;
+            height: 5rem;
+            background-color: $gray-2;
+            border-radius: 5%;
+            padding: 1rem;
+        }
+        img:hover {
+            background-color: $gray-1-transp;
+            transition: background-color 0.5s ease;
+            cursor: pointer;
+        }
+        h2 {
+            display: inline;
+            margin: 0;
+        }
+    }
+}
+
+
+
+footer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $gray-2;
+    color: $blue-2;
+}
