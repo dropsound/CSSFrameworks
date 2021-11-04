@@ -141,7 +141,67 @@ article {
     }
 }
 
-
+.comparison {
+    background-image: none;
+    background-color: $blue-1;
+    color: $gray-2;
+    p {
+        font-size: 1.2rem;
+    }
+    .comparation-container {
+        margin-top: 0.5rem;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        img {
+            width: 3rem;
+            height: 3rem;
+            background-color: $gray-2;
+            border-radius: 5%;
+            padding: 1rem;
+        }
+        img:hover {
+            background-color: $gray-1-transp;
+            transition: background-color 0.5s ease;
+            cursor: pointer;
+        }
+    }
+    table.blueTable {
+        width: 100%;
+        text-align: center;
+        .red {
+            color: rgb(214, 130, 130);
+        }
+        .green {
+            color: rgb(142, 194, 142);
+        }
+      }
+      table.blueTable td, table.blueTable th {
+        padding: 3px 2px;
+      }
+      table.blueTable tbody td {
+        font-size: 1.2rem;
+        img {
+            width: 4rem;
+        }
+      }
+      table.blueTable thead {
+          border-bottom: 2px solid #444444;
+      }
+      table.blueTable thead th {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-left: 2px solid #D0E4F5;
+      }
+      table.blueTable thead th:first-child {
+        border-left: none;
+      }
+}
+tr:hover {
+    background-color: $gray-1-transp;
+    cursor: pointer;
+}
 
 footer {
     height: 100vh;

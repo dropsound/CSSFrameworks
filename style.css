@@ -163,6 +163,85 @@ article {
   margin: 0;
 }
 
+.comparison {
+  background-image: none;
+  background-color: #287094;
+  color: #f6f6f6;
+}
+
+.comparison p {
+  font-size: 1.2rem;
+}
+
+.comparison .comparation-container {
+  margin-top: 0.5rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.comparison .comparation-container img {
+  width: 3rem;
+  height: 3rem;
+  background-color: #f6f6f6;
+  border-radius: 5%;
+  padding: 1rem;
+}
+
+.comparison .comparation-container img:hover {
+  background-color: #d4d4ce70;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.comparison table.blueTable {
+  width: 100%;
+  text-align: center;
+}
+
+.comparison table.blueTable .red {
+  color: #d68282;
+}
+
+.comparison table.blueTable .green {
+  color: #8ec28e;
+}
+
+.comparison table.blueTable td, .comparison table.blueTable th {
+  padding: 3px 2px;
+}
+
+.comparison table.blueTable tbody td {
+  font-size: 1.2rem;
+}
+
+.comparison table.blueTable tbody td img {
+  width: 4rem;
+}
+
+.comparison table.blueTable thead {
+  border-bottom: 2px solid #444444;
+}
+
+.comparison table.blueTable thead th {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+
+.comparison table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+tr:hover {
+  background-color: #d4d4ce70;
+  cursor: pointer;
+}
+
 footer {
   height: 100vh;
   display: -webkit-box;
