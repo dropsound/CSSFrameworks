@@ -31,6 +31,7 @@ h3 {
 
 h4 {
   font-size: 3rem;
+  margin: 0;
 }
 
 a, a:visited {
@@ -204,14 +205,6 @@ article {
   text-align: center;
 }
 
-.comparison table.blueTable .red {
-  color: #d68282;
-}
-
-.comparison table.blueTable .green {
-  color: #8ec28e;
-}
-
 .comparison table.blueTable td, .comparison table.blueTable th {
   padding: 3px 2px;
 }
@@ -242,6 +235,36 @@ article {
 tr:hover {
   background-color: #d4d4ce70;
   cursor: pointer;
+}
+
+td:first-of-type {
+  font-weight: bold;
+  text-align: left;
+}
+
+/* .tailwind {
+    
+} */
+.bootstrap {
+  background-color: #f6f6f6;
+}
+
+.uikit {
+  background-color: #f6f6f6;
+}
+
+.utility {
+  background-image: url(./images/876094.png);
+  background-size: cover;
+  color: #f6f6f6;
+}
+
+.utility a {
+  color: #f6f6f6;
+}
+
+.utility h4 {
+  margin-bottom: 2rem;
 }
 
 footer {
@@ -360,5 +383,35 @@ input:focus + label {
   cursor: pointer;
   background-color: white;
   padding-left: 4px;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inline {
+  display: inline;
+}
+
+.red {
+  color: #d68282;
+}
+
+.green {
+  color: #8ec28e;
 }
 /*# sourceMappingURL=style.css.map */
